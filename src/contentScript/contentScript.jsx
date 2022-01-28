@@ -3,11 +3,7 @@ import ReactDOM from 'react-dom';
 import './contentScript.scss';
 
 const App = () => {
-  return (
-    <div className='App'>
-      <img src='icon.png' />
-    </div>
-  );
+  return <div className='App'></div>;
 };
 
 const root = document.createElement('div');
